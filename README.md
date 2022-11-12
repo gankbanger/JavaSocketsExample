@@ -12,10 +12,20 @@ El servidor muestra la imagen `monalista.jpeg` al recibirla.
 
 ## ¿Cómo ejecutar localmente?
 
-Clona el repositorio localmente:
+1. Clona el repositorio localmente:
 
-`git clone git@github.com:gankbanger/JavaSocketsExample.git`
+  `git clone git@github.com:gankbanger/JavaSocketsExample.git`
 
-Ejecuta el servidor (`Server.java`) primero.
+2. Compila el código:
 
-Después de ver la ventana vacía en pantalla, ejecuta el cliente (`Client.java`), pocos momentos después, la imagen `monalisa.jpeg` debe aparecer en la ventana abierta por el servidor.
+  `javac *.java`
+
+3. Ejecuta el servidor (`Server.java`) primero.
+
+  `java Server`
+
+4. Después de ver la ventana vacía en pantalla, ejecuta el cliente (`Client.java`)
+
+  `java Client`
+  
+  pocos momentos después, la imagen `monalisa.jpeg` debe aparecer en la ventana abierta por el servidor.
