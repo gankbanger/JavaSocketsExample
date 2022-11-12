@@ -13,7 +13,7 @@ public class Server implements ObservadorDeArte{
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         Server srv = new Server();
         try (ServerSocket ss = new ServerSocket(7777)) {
-            System.out.println("ServerSocket awaiting connections...");
+            System.out.println("esperando conexiones...");
             try (Socket socket = ss.accept()) {
                 try (InputStream inputStream = socket.getInputStream()) {
                     try (ObjectInputStream objectInputStream = new ObjectInputStream(inputStream)){
